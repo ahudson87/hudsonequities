@@ -1,0 +1,75 @@
+/* ~~~~~~~~~~~~~~~~ COLORS ~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~ TYPE ~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~ ANIMATION ~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~ FONTS ~~~~~~~~~~~~~~~~ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,800);
+/* line 8, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch a:hover {
+  color: #5a8aba;
+}
+/* line 17, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch #header nav ul li:hover a {
+  background-color: #fff;
+  color: #5a8aba;
+  border-color: #fff;
+}
+/* line 31, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch button:hover,
+html.no-touch .sub-page-ui a:not(.filter-toggle):hover,
+html.no-touch input[type="submit"]:hover {
+  color: #fff;
+  background-color: #424242;
+  cursor: pointer;
+}
+/* line 41, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .sub-page-ui button:hover,
+html.no-touch .sub-page-ui a:not(.filter-toggle):hover,
+html.no-touch input[type="submit"]:hover {
+  color: #fff;
+}
+/* line 48, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .sub-page-ui .filter-toggle:hover {
+  color: #424242;
+}
+/* line 57, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .promo a:hover,
+html.no-touch .dev-bucket a:hover,
+html.no-touch .news-items li a:hover {
+  color: #424242;
+}
+/* line 62, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .promo a:hover .hover-icon, html.no-touch .promo a:focus .hover-icon,
+html.no-touch .dev-bucket a:hover .hover-icon,
+html.no-touch .dev-bucket a:focus .hover-icon,
+html.no-touch .news-items li a:hover .hover-icon,
+html.no-touch .news-items li a:focus .hover-icon {
+  margin-left: 1.25rem;
+}
+/* line 73, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .promo:hover .promo-label,
+html.no-touch .dev-bucket:hover .promo-label {
+  height: 35%;
+}
+/* line 76, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .promo:hover .dev-label,
+html.no-touch .dev-bucket:hover .dev-label {
+  height: 35%;
+}
+/* line 82, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .promo.full:hover .dev-label,
+html.no-touch .dev-bucket.full:hover .dev-label {
+  height: 30%;
+}
+/* line 90, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch #press-release a:hover {
+  color: #225384;
+}
+/* line 98, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch .contacts-list a:hover span.mailto {
+  color: #424242;
+}
+/* line 112, ../../../../../flat-front/scss/no-touch.scss */
+html.no-touch #footer .sitemap nav ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
