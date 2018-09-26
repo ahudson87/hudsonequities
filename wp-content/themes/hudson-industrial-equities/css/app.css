@@ -3379,7 +3379,14 @@ nav ul li a {
   }
 }
 
-/* line 138, ../../../../../flat-front/scss/app.scss */
+@media screen and (min-width: 641px) and (max-width: 860px) {
+  /* line 141, ../../../../../flat-front/scss/app.scss */
+  #header-menu.hack-large-menu li a {
+    font-size: 0.7rem;
+    padding: .75rem 0.7rem .2rem;
+  }
+}
+/* line 149, ../../../../../flat-front/scss/app.scss */
 #header {
   background-color: #5a8aba;
   position: fixed;
@@ -3395,43 +3402,43 @@ nav ul li a {
   transition: height 0.1s ease-in-out;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 138, ../../../../../flat-front/scss/app.scss */
+  /* line 149, ../../../../../flat-front/scss/app.scss */
   #header {
     min-height: 0;
     height: 60px;
   }
 }
-/* line 152, ../../../../../flat-front/scss/app.scss */
+/* line 163, ../../../../../flat-front/scss/app.scss */
 #header.minimized {
   height: 40px;
 }
-/* line 154, ../../../../../flat-front/scss/app.scss */
+/* line 165, ../../../../../flat-front/scss/app.scss */
 #header.minimized #logo-holder {
   width: 48px;
   height: 48px;
   top: 6px;
 }
-/* line 158, ../../../../../flat-front/scss/app.scss */
+/* line 169, ../../../../../flat-front/scss/app.scss */
 #header.minimized #logo-holder img {
   width: 40px;
 }
-/* line 162, ../../../../../flat-front/scss/app.scss */
+/* line 173, ../../../../../flat-front/scss/app.scss */
 #header.minimized nav {
   height: 40px;
 }
-/* line 164, ../../../../../flat-front/scss/app.scss */
+/* line 175, ../../../../../flat-front/scss/app.scss */
 #header.minimized nav ul {
   height: 100%;
 }
-/* line 166, ../../../../../flat-front/scss/app.scss */
+/* line 177, ../../../../../flat-front/scss/app.scss */
 #header.minimized nav ul li {
   height: 100%;
 }
-/* line 168, ../../../../../flat-front/scss/app.scss */
+/* line 179, ../../../../../flat-front/scss/app.scss */
 #header.minimized nav ul li a {
   height: 100%;
 }
-/* line 175, ../../../../../flat-front/scss/app.scss */
+/* line 186, ../../../../../flat-front/scss/app.scss */
 #header .row {
   position: relative;
   min-height: 60px;
@@ -3441,13 +3448,13 @@ nav ul li a {
   transition: height 0.1s;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 175, ../../../../../flat-front/scss/app.scss */
+  /* line 186, ../../../../../flat-front/scss/app.scss */
   #header .row {
     min-height: 0;
     height: 100%;
   }
 }
-/* line 184, ../../../../../flat-front/scss/app.scss */
+/* line 195, ../../../../../flat-front/scss/app.scss */
 #header #logo-holder {
   position: absolute;
   width: 48px;
@@ -3464,14 +3471,14 @@ nav ul li a {
   transition: all 0.1s ease-in-out;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 184, ../../../../../flat-front/scss/app.scss */
+  /* line 195, ../../../../../flat-front/scss/app.scss */
   #header #logo-holder {
     width: 100px;
     height: 100px;
     top: 12px;
   }
 }
-/* line 198, ../../../../../flat-front/scss/app.scss */
+/* line 209, ../../../../../flat-front/scss/app.scss */
 #header #logo-holder img {
   width: 40px;
   height: auto;
@@ -3487,12 +3494,12 @@ nav ul li a {
   transition: all 0.1s ease-in-out;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 198, ../../../../../flat-front/scss/app.scss */
+  /* line 209, ../../../../../flat-front/scss/app.scss */
   #header #logo-holder img {
     width: 85px;
   }
 }
-/* line 213, ../../../../../flat-front/scss/app.scss */
+/* line 224, ../../../../../flat-front/scss/app.scss */
 #header #mobile-menu-btn-holder {
   position: absolute;
   top: .8rem;
@@ -3500,18 +3507,18 @@ nav ul li a {
   height: 37px;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 213, ../../../../../flat-front/scss/app.scss */
+  /* line 224, ../../../../../flat-front/scss/app.scss */
   #header #mobile-menu-btn-holder {
     display: none;
   }
 }
-/* line 222, ../../../../../flat-front/scss/app.scss */
+/* line 233, ../../../../../flat-front/scss/app.scss */
 #header nav {
   margin-bottom: 1rem;
   margin-top: 4rem;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 222, ../../../../../flat-front/scss/app.scss */
+  /* line 233, ../../../../../flat-front/scss/app.scss */
   #header nav {
     display: inline-block;
     position: absolute;
@@ -3520,33 +3527,33 @@ nav ul li a {
     margin: 0;
   }
 }
-/* line 233, ../../../../../flat-front/scss/app.scss */
+/* line 244, ../../../../../flat-front/scss/app.scss */
 #header nav ul li {
   text-align: center;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 233, ../../../../../flat-front/scss/app.scss */
+  /* line 244, ../../../../../flat-front/scss/app.scss */
   #header nav ul li {
     float: left;
   }
-  /* line 237, ../../../../../flat-front/scss/app.scss */
+  /* line 248, ../../../../../flat-front/scss/app.scss */
   #header nav ul li:first-child {
     margin-left: 0;
   }
 }
-/* line 242, ../../../../../flat-front/scss/app.scss */
+/* line 253, ../../../../../flat-front/scss/app.scss */
 #header nav ul li.active a {
   color: #5a8aba;
   background-color: #fff;
   border-color: #fff;
 }
-/* line 248, ../../../../../flat-front/scss/app.scss */
+/* line 259, ../../../../../flat-front/scss/app.scss */
 #header nav ul li a {
   font-weight: 600;
   border: 1px solid #5a8aba;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 248, ../../../../../flat-front/scss/app.scss */
+  /* line 259, ../../../../../flat-front/scss/app.scss */
   #header nav ul li a {
     padding: .75rem 1.5rem .2rem;
     -moz-transition: background-color 0.1s, color 0.1s, border-color 0.1s;
@@ -3556,7 +3563,7 @@ nav ul li a {
   }
 }
 
-/* line 261, ../../../../../flat-front/scss/app.scss */
+/* line 272, ../../../../../flat-front/scss/app.scss */
 .page-content {
   background-color: #fff;
   padding-bottom: 2rem;
@@ -3564,45 +3571,45 @@ nav ul li a {
   margin-top: 1.2rem;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 261, ../../../../../flat-front/scss/app.scss */
+  /* line 272, ../../../../../flat-front/scss/app.scss */
   .page-content {
     padding-top: 60px;
   }
 }
-/* line 269, ../../../../../flat-front/scss/app.scss */
+/* line 280, ../../../../../flat-front/scss/app.scss */
 .page-content .lead-in {
   margin-bottom: 1rem;
 }
-/* line 271, ../../../../../flat-front/scss/app.scss */
+/* line 282, ../../../../../flat-front/scss/app.scss */
 .page-content .lead-in h1 {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-/* line 278, ../../../../../flat-front/scss/app.scss */
+/* line 289, ../../../../../flat-front/scss/app.scss */
 #footer {
   position: relative;
   background-color: #424242;
 }
-/* line 281, ../../../../../flat-front/scss/app.scss */
+/* line 292, ../../../../../flat-front/scss/app.scss */
 #footer .sitemap {
   min-height: 100px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 287, ../../../../../flat-front/scss/app.scss */
+/* line 298, ../../../../../flat-front/scss/app.scss */
 #footer .sitemap ul li a {
   font-weight: 100;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 295, ../../../../../flat-front/scss/app.scss */
+  /* line 306, ../../../../../flat-front/scss/app.scss */
   #footer .sitemap nav ul li {
     display: inline-block;
     margin-right: 1.5rem;
     padding-right: 2.2rem;
     position: relative;
   }
-  /* line 303, ../../../../../flat-front/scss/app.scss */
+  /* line 314, ../../../../../flat-front/scss/app.scss */
   #footer .sitemap nav ul li::after {
     content: "|";
     color: #fff;
@@ -3610,17 +3617,17 @@ nav ul li a {
     right: 0;
     position: absolute;
   }
-  /* line 310, ../../../../../flat-front/scss/app.scss */
+  /* line 321, ../../../../../flat-front/scss/app.scss */
   #footer .sitemap nav ul li:last-child {
     margin-right: 0;
     padding-right: 0;
   }
-  /* line 313, ../../../../../flat-front/scss/app.scss */
+  /* line 324, ../../../../../flat-front/scss/app.scss */
   #footer .sitemap nav ul li:last-child::after {
     content: none;
   }
 }
-/* line 322, ../../../../../flat-front/scss/app.scss */
+/* line 333, ../../../../../flat-front/scss/app.scss */
 #footer #copyright {
   width: 100%;
   min-height: 40px;
@@ -3628,24 +3635,24 @@ nav ul li a {
   padding: 1rem 0;
   background: url("../img/diagonal-bg-tile.png") repeat;
 }
-/* line 328, ../../../../../flat-front/scss/app.scss */
+/* line 339, ../../../../../flat-front/scss/app.scss */
 #footer #copyright p {
   font-size: .9rem;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 328, ../../../../../flat-front/scss/app.scss */
+  /* line 339, ../../../../../flat-front/scss/app.scss */
   #footer #copyright p {
     font-size: .75rem;
   }
 }
 
-/* line 337, ../../../../../flat-front/scss/app.scss */
+/* line 348, ../../../../../flat-front/scss/app.scss */
 .row {
   padding-left: .75rem;
   padding-right: .75rem;
 }
 
-/* line 342, ../../../../../flat-front/scss/app.scss */
+/* line 353, ../../../../../flat-front/scss/app.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   line-height: 1.1;
@@ -3654,63 +3661,63 @@ h1, h2, h3, h4, h5, h6 {
   color: #5a8aba;
 }
 
-/* line 350, ../../../../../flat-front/scss/app.scss */
+/* line 361, ../../../../../flat-front/scss/app.scss */
 h4, h5, h6 {
   font-weight: 600;
   margin-bottom: .25rem;
 }
 
-/* line 355, ../../../../../flat-front/scss/app.scss */
+/* line 366, ../../../../../flat-front/scss/app.scss */
 h1 {
   font-size: 2rem;
   color: #424242;
   margin-bottom: .4rem;
 }
 
-/* line 361, ../../../../../flat-front/scss/app.scss */
+/* line 372, ../../../../../flat-front/scss/app.scss */
 h2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
   color: #424242;
 }
 
-/* line 367, ../../../../../flat-front/scss/app.scss */
+/* line 378, ../../../../../flat-front/scss/app.scss */
 h3 {
   font-size: 1.5rem;
   margin-bottom: .3rem;
 }
 
-/* line 372, ../../../../../flat-front/scss/app.scss */
+/* line 383, ../../../../../flat-front/scss/app.scss */
 h4 {
   font-size: 1.25rem;
   color: #424242;
 }
 
-/* line 377, ../../../../../flat-front/scss/app.scss */
+/* line 388, ../../../../../flat-front/scss/app.scss */
 h5 {
   font-size: 1.1rem;
 }
 
-/* line 381, ../../../../../flat-front/scss/app.scss */
+/* line 392, ../../../../../flat-front/scss/app.scss */
 h6 {
   font-size: .9rem;
   color: #999999;
 }
 
-/* line 386, ../../../../../flat-front/scss/app.scss */
+/* line 397, ../../../../../flat-front/scss/app.scss */
 p {
   font-size: 1rem;
   font-weight: 100;
   margin: .35rem 0;
 }
-/* line 390, ../../../../../flat-front/scss/app.scss */
+/* line 401, ../../../../../flat-front/scss/app.scss */
 p.caption {
   font-size: .75rem;
   margin-top: .75rem;
   max-width: 17rem;
 }
 
-/* line 397, ../../../../../flat-front/scss/app.scss */
+/* line 408, ../../../../../flat-front/scss/app.scss */
 a {
   color: #424242;
   font-weight: 600;
@@ -3721,7 +3728,7 @@ a {
   transition: all 0.1s;
 }
 
-/* line 404, ../../../../../flat-front/scss/app.scss */
+/* line 415, ../../../../../flat-front/scss/app.scss */
 blockquote {
   color: #225384;
   font-weight: 600;
@@ -3733,7 +3740,7 @@ blockquote {
   text-align: center;
 }
 
-/* line 413, ../../../../../flat-front/scss/app.scss */
+/* line 424, ../../../../../flat-front/scss/app.scss */
 cite {
   display: block;
   margin-top: 1rem;
@@ -3743,17 +3750,17 @@ cite {
   font-weight: 100;
 }
 
-/* line 423, ../../../../../flat-front/scss/app.scss */
+/* line 434, ../../../../../flat-front/scss/app.scss */
 strong {
   font-weight: 600;
 }
 
-/* line 427, ../../../../../flat-front/scss/app.scss */
+/* line 438, ../../../../../flat-front/scss/app.scss */
 em {
   font-style: italic;
 }
 
-/* line 431, ../../../../../flat-front/scss/app.scss */
+/* line 442, ../../../../../flat-front/scss/app.scss */
 button,
 input[type="submit"],
 .sub-page-ui a:not(.filter-toggle) {
@@ -3770,7 +3777,7 @@ input[type="submit"],
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
-/* line 441, ../../../../../flat-front/scss/app.scss */
+/* line 452, ../../../../../flat-front/scss/app.scss */
 button.active,
 input[type="submit"].active,
 .sub-page-ui a:not(.filter-toggle).active {
@@ -3778,7 +3785,7 @@ input[type="submit"].active,
   background-color: #424242;
 }
 
-/* line 447, ../../../../../flat-front/scss/app.scss */
+/* line 458, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui button,
 .sub-page-ui a:not(.filter-toggle),
 input[type="submit"] {
@@ -3786,14 +3793,14 @@ input[type="submit"] {
   color: #424242;
   font-size: 1rem;
 }
-/* line 453, ../../../../../flat-front/scss/app.scss */
+/* line 464, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui button.active,
 .sub-page-ui a:not(.filter-toggle).active,
 input[type="submit"].active {
   color: #fff;
 }
 
-/* line 458, ../../../../../flat-front/scss/app.scss */
+/* line 469, ../../../../../flat-front/scss/app.scss */
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -3803,19 +3810,19 @@ textarea {
   border-right-width: 0;
 }
 
-/* line 467, ../../../../../flat-front/scss/app.scss */
+/* line 478, ../../../../../flat-front/scss/app.scss */
 #hero {
   height: 24rem;
   position: relative;
   margin-top: .5rem;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 467, ../../../../../flat-front/scss/app.scss */
+  /* line 478, ../../../../../flat-front/scss/app.scss */
   #hero {
     height: 400px;
   }
 }
-/* line 474, ../../../../../flat-front/scss/app.scss */
+/* line 485, ../../../../../flat-front/scss/app.scss */
 #hero .hero-bg-image {
   position: absolute;
   top: 0;
@@ -3826,7 +3833,7 @@ textarea {
   width: 100%;
   background-size: cover;
 }
-/* line 484, ../../../../../flat-front/scss/app.scss */
+/* line 495, ../../../../../flat-front/scss/app.scss */
 #hero .hero-frame {
   height: 20px;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiM0YjdiYWIiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiM0YjdiYWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -3839,16 +3846,16 @@ textarea {
   width: 100%;
   z-index: 9999;
 }
-/* line 490, ../../../../../flat-front/scss/app.scss */
+/* line 501, ../../../../../flat-front/scss/app.scss */
 #hero .hero-frame:first-child {
   top: 0;
 }
-/* line 493, ../../../../../flat-front/scss/app.scss */
+/* line 504, ../../../../../flat-front/scss/app.scss */
 #hero .hero-frame:nth-child(2) {
   bottom: 0;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 484, ../../../../../flat-front/scss/app.scss */
+  /* line 495, ../../../../../flat-front/scss/app.scss */
   #hero .hero-frame {
     height: 28px;
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiM0YjdiYWIiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiM0YjdiYWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -3860,7 +3867,7 @@ textarea {
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 484, ../../../../../flat-front/scss/app.scss */
+  /* line 495, ../../../../../flat-front/scss/app.scss */
   #hero .hero-frame {
     right: -14px;
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiM0YjdiYWIiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiM0YjdiYWIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -3870,45 +3877,68 @@ textarea {
     background-image: -webkit-linear-gradient(left, rgba(75, 123, 171, 0) 60%, #4b7bab 75%);
     background-image: linear-gradient(to right, rgba(75, 123, 171, 0) 60%, #4b7bab 75%);
   }
-  /* line 503, ../../../../../flat-front/scss/app.scss */
-  #hero .hero-frame::after {
-    content: "";
-    background: url("../img/hero-end-cap.png") no-repeat center center;
+  /* line 514, ../../../../../flat-front/scss/app.scss */
+  #hero .hero-frame > .ornament {
     position: absolute;
+    overflow: hidden;
     height: 14px;
     width: 14px;
     top: 28px;
     right: 0;
   }
-  /* line 513, ../../../../../flat-front/scss/app.scss */
-  #hero .hero-frame:nth-child(2)::after {
-    -moz-transform: scaleY(-1);
-    -ms-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
+  /* line 521, ../../../../../flat-front/scss/app.scss */
+  #hero .hero-frame > .ornament .ornament-inner {
+    background-color: red;
+    top: -26px;
+    position: relative;
+    left: -32px;
+    height: 300%;
+    width: 300%;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* line 529, ../../../../../flat-front/scss/app.scss */
+  #hero .hero-frame > .ornament .ornament-inner::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  /* line 542, ../../../../../flat-front/scss/app.scss */
+  #hero .hero-frame:nth-child(2) > .ornament {
     top: -14px;
   }
+  /* line 544, ../../../../../flat-front/scss/app.scss */
+  #hero .hero-frame:nth-child(2) > .ornament .ornament-inner {
+    top: -2px;
+  }
 }
-/* line 520, ../../../../../flat-front/scss/app.scss */
+/* line 551, ../../../../../flat-front/scss/app.scss */
 #hero .overlay-row {
   padding: 0;
   margin: 0;
   height: 24rem;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 520, ../../../../../flat-front/scss/app.scss */
+  /* line 551, ../../../../../flat-front/scss/app.scss */
   #hero .overlay-row {
     width: 75%;
     height: 400px;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 520, ../../../../../flat-front/scss/app.scss */
+  /* line 551, ../../../../../flat-front/scss/app.scss */
   #hero .overlay-row {
     width: 50%;
   }
 }
-/* line 532, ../../../../../flat-front/scss/app.scss */
+/* line 563, ../../../../../flat-front/scss/app.scss */
 #hero .overlay-text {
   position: absolute;
   height: 24rem;
@@ -3916,7 +3946,7 @@ textarea {
   padding: 2rem 2rem 2rem 0;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 532, ../../../../../flat-front/scss/app.scss */
+  /* line 563, ../../../../../flat-front/scss/app.scss */
   #hero .overlay-text {
     top: -400px;
     height: 400px;
@@ -3924,64 +3954,163 @@ textarea {
     padding-right: 4rem;
   }
 }
-/* line 543, ../../../../../flat-front/scss/app.scss */
+/* line 574, ../../../../../flat-front/scss/app.scss */
+#hero .overlay-text a {
+  color: #fff;
+}
+/* line 577, ../../../../../flat-front/scss/app.scss */
 #hero .overlay-text h1,
 #hero .overlay-text p {
   color: #fff;
 }
 
-/* line 551, ../../../../../flat-front/scss/app.scss */
+/* line 585, ../../../../../flat-front/scss/app.scss */
 .dark-diagonal-overlay {
   width: 100%;
   height: 100%;
   background: url("../img/diagonal-dark-bg-tile.png") repeat;
 }
 
-/* line 558, ../../../../../flat-front/scss/app.scss */
+/* line 592, ../../../../../flat-front/scss/app.scss */
 .promotions-column,
 .news-column,
-.archive-column {
+.archive-column,
+.right-column {
   margin-top: 1rem;
 }
 
-/* line 565, ../../../../../flat-front/scss/app.scss */
+/* line 599, ../../../../../flat-front/scss/app.scss */
+.left-column {
+  padding-right: 30px;
+  padding-top: 1rem;
+}
+
+/* line 608, ../../../../../flat-front/scss/app.scss */
+.centered-content {
+  text-align: center;
+}
+
+/* line 612, ../../../../../flat-front/scss/app.scss */
+iframe.yelp-review {
+  margin-bottom: 35px !important;
+}
+
+/* line 617, ../../../../../flat-front/scss/app.scss */
+.wpcf7-form-control-wrap :after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 625, ../../../../../flat-front/scss/app.scss */
+.wpcf7-form-control-wrap {
+  display: inline-block;
+}
+
+/* start commented backslash hack \*/
+/* line 627, ../../../../../flat-front/scss/app.scss */
+* html .wpcf7-form-control-wrap {
+  height: 1%;
+}
+
+/* line 628, ../../../../../flat-front/scss/app.scss */
+.wpcf7-form-control-wrap {
+  display: block;
+}
+
+/* close commented backslash hack */
+/* line 631, ../../../../../flat-front/scss/app.scss */
+.wpcf7-list-item {
+  min-width: 120px;
+  float: left;
+  display: inline-block;
+  padding: 0.4rem 0;
+}
+
+/* line 638, ../../../../../flat-front/scss/app.scss */
+.call-now {
+  position: fixed;
+  top: 65px;
+  right: 20px;
+  background-color: #225384;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 5px 25px;
+  text-align: center;
+  z-index: 99998;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+@media only screen and (min-width: 40.0625em) {
+  /* line 638, ../../../../../flat-front/scss/app.scss */
+  .call-now {
+    top: 75px;
+  }
+}
+/* line 653, ../../../../../flat-front/scss/app.scss */
+.call-now a {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* line 660, ../../../../../flat-front/scss/app.scss */
+.call-now-darken {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  z-index: -99;
+}
+
+/* line 672, ../../../../../flat-front/scss/app.scss */
 .archive-column h4 {
   display: none;
 }
-/* line 568, ../../../../../flat-front/scss/app.scss */
+/* line 675, ../../../../../flat-front/scss/app.scss */
 .archive-column .press-archive-list {
   display: none;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 572, ../../../../../flat-front/scss/app.scss */
+  /* line 679, ../../../../../flat-front/scss/app.scss */
   .archive-column .press-archive-btn {
     display: none;
   }
-  /* line 575, ../../../../../flat-front/scss/app.scss */
+  /* line 682, ../../../../../flat-front/scss/app.scss */
   .archive-column h4 {
     display: block;
     text-align: right;
   }
-  /* line 579, ../../../../../flat-front/scss/app.scss */
+  /* line 686, ../../../../../flat-front/scss/app.scss */
   .archive-column .press-archive-list {
     display: block;
     margin: 0;
     padding: 0;
   }
-  /* line 583, ../../../../../flat-front/scss/app.scss */
+  /* line 690, ../../../../../flat-front/scss/app.scss */
   .archive-column .press-archive-list li {
     display: block;
     text-align: right;
     height: 2rem;
     margin-bottom: .1rem;
   }
-  /* line 588, ../../../../../flat-front/scss/app.scss */
+  /* line 695, ../../../../../flat-front/scss/app.scss */
   .archive-column .press-archive-list li::before {
     content: none;
     margin: 0;
     padding: 0;
   }
-  /* line 593, ../../../../../flat-front/scss/app.scss */
+  /* line 700, ../../../../../flat-front/scss/app.scss */
   .archive-column .press-archive-list li a {
     font-weight: 100;
     display: block;
@@ -3990,7 +4119,7 @@ textarea {
   }
 }
 
-/* line 608, ../../../../../flat-front/scss/app.scss */
+/* line 715, ../../../../../flat-front/scss/app.scss */
 .promo a .hover-icon,
 .dev-bucket a .hover-icon,
 .news-items li a .hover-icon {
@@ -4000,7 +4129,7 @@ textarea {
   transition: margin 0.1s ease-in-out, transform 0.4s ease-in-out;
 }
 
-/* line 613, ../../../../../flat-front/scss/app.scss */
+/* line 720, ../../../../../flat-front/scss/app.scss */
 .promo,
 .dev-bucket {
   height: 150px;
@@ -4011,14 +4140,14 @@ textarea {
   margin-bottom: 1rem;
   position: relative;
 }
-/* line 622, ../../../../../flat-front/scss/app.scss */
+/* line 729, ../../../../../flat-front/scss/app.scss */
 .promo a,
 .dev-bucket a {
   height: 100%;
   width: 100%;
   display: block;
 }
-/* line 626, ../../../../../flat-front/scss/app.scss */
+/* line 733, ../../../../../flat-front/scss/app.scss */
 .promo a .promo-label,
 .promo a .dev-label,
 .dev-bucket a .promo-label,
@@ -4042,7 +4171,7 @@ textarea {
   transition: height 0.2s ease-in-out;
 }
 
-/* line 646, ../../../../../flat-front/scss/app.scss */
+/* line 753, ../../../../../flat-front/scss/app.scss */
 .promo-label span,
 .dev-label span,
 ul.news-items li a span {
@@ -4050,68 +4179,68 @@ ul.news-items li a span {
   margin-left: .65rem;
 }
 
-/* line 653, ../../../../../flat-front/scss/app.scss */
+/* line 760, ../../../../../flat-front/scss/app.scss */
 .dev-bucket {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 653, ../../../../../flat-front/scss/app.scss */
+  /* line 760, ../../../../../flat-front/scss/app.scss */
   .dev-bucket {
     width: 49%;
     float: left;
     margin-bottom: 1.75rem;
   }
-  /* line 658, ../../../../../flat-front/scss/app.scss */
+  /* line 765, ../../../../../flat-front/scss/app.scss */
   .dev-bucket.full {
     width: 100%;
     height: 250px;
   }
-  /* line 662, ../../../../../flat-front/scss/app.scss */
+  /* line 769, ../../../../../flat-front/scss/app.scss */
   .dev-bucket.full .dev-label {
     height: 20%;
     font-size: 1.25rem;
   }
-  /* line 665, ../../../../../flat-front/scss/app.scss */
+  /* line 772, ../../../../../flat-front/scss/app.scss */
   .dev-bucket.full .dev-label .hover-icon {
     font-size: .8rem;
   }
-  /* line 672, ../../../../../flat-front/scss/app.scss */
+  /* line 779, ../../../../../flat-front/scss/app.scss */
   .dev-bucket:nth-child(odd) {
     margin-right: 2%;
   }
 }
 
-/* line 679, ../../../../../flat-front/scss/app.scss */
+/* line 786, ../../../../../flat-front/scss/app.scss */
 .news-column .news-header {
   background: url("../img/temp-news-header-bg.jpg") no-repeat;
   background-size: cover;
 }
-/* line 682, ../../../../../flat-front/scss/app.scss */
+/* line 789, ../../../../../flat-front/scss/app.scss */
 .news-column .news-header .dark-diagonal-overlay {
   padding: 1rem;
 }
-/* line 685, ../../../../../flat-front/scss/app.scss */
+/* line 792, ../../../../../flat-front/scss/app.scss */
 .news-column .news-header h2 {
   color: white;
   font-weight: 100;
   margin-bottom: 0;
 }
-/* line 691, ../../../../../flat-front/scss/app.scss */
+/* line 798, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items {
   background-color: #f4f4f4;
   margin-left: 0;
 }
-/* line 694, ../../../../../flat-front/scss/app.scss */
+/* line 801, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items li {
   padding: .75rem 1rem .25rem 1rem;
   font-size: .9rem;
 }
-/* line 697, ../../../../../flat-front/scss/app.scss */
+/* line 804, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items li:before {
   content: "";
 }
-/* line 701, ../../../../../flat-front/scss/app.scss */
+/* line 808, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items li p,
 .news-column .news-items li a {
   margin: 0;
@@ -4120,38 +4249,38 @@ ul.news-items li a span {
   margin-bottom: .35rem;
   display: block;
 }
-/* line 709, ../../../../../flat-front/scss/app.scss */
+/* line 816, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items li p.news-item-title {
   font-size: 1rem;
 }
-/* line 712, ../../../../../flat-front/scss/app.scss */
+/* line 819, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items li span.news-type,
 .news-column .news-items li a {
   font-weight: 600;
 }
-/* line 716, ../../../../../flat-front/scss/app.scss */
+/* line 823, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items li a {
   color: #424242;
   padding-bottom: 1rem;
   border-bottom: 1px solid #999999;
 }
-/* line 722, ../../../../../flat-front/scss/app.scss */
+/* line 829, ../../../../../flat-front/scss/app.scss */
 .news-column .news-items li:last-child a {
   border: none;
 }
 
-/* line 731, ../../../../../flat-front/scss/app.scss */
-#home #hero, #contact #hero {
+/* line 838, ../../../../../flat-front/scss/app.scss */
+.page-content.with-hero #hero {
   margin-top: 0;
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 733, ../../../../../flat-front/scss/app.scss */
-  #home #hero .hero-bg-image, #contact #hero .hero-bg-image {
+  /* line 840, ../../../../../flat-front/scss/app.scss */
+  .page-content.with-hero #hero .hero-bg-image {
     width: 97%;
   }
 }
 
-/* line 742, ../../../../../flat-front/scss/app.scss */
+/* line 849, ../../../../../flat-front/scss/app.scss */
 #contact #hero .overlay-text .primary-contact-link {
   display: block;
   color: #fff;
@@ -4159,7 +4288,7 @@ ul.news-items li a span {
   height: 1.5rem;
   margin-top: .5rem;
 }
-/* line 748, ../../../../../flat-front/scss/app.scss */
+/* line 855, ../../../../../flat-front/scss/app.scss */
 #contact #hero .overlay-text .primary-contact-link span[class^="icon-"] {
   position: relative;
   margin-right: .8rem;
@@ -4167,139 +4296,137 @@ ul.news-items li a span {
   top: .25rem;
 }
 
-@media only screen and (min-width: 40.0625em) {
-  /* line 757, ../../../../../flat-front/scss/app.scss */
-  .page-content:not(.with-hero) {
-    padding-top: 96px;
-  }
+/* line 864, ../../../../../flat-front/scss/app.scss */
+.page-content:not(.with-hero) {
+  padding-top: 96px;
 }
 
-/* line 763, ../../../../../flat-front/scss/app.scss */
+/* line 868, ../../../../../flat-front/scss/app.scss */
 .about-row {
   height: 500px;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 763, ../../../../../flat-front/scss/app.scss */
+  /* line 868, ../../../../../flat-front/scss/app.scss */
   .about-row {
     height: 300px;
   }
 }
-/* line 768, ../../../../../flat-front/scss/app.scss */
+/* line 873, ../../../../../flat-front/scss/app.scss */
 .about-row:last-child {
   border-bottom: none;
 }
-/* line 772, ../../../../../flat-front/scss/app.scss */
+/* line 877, ../../../../../flat-front/scss/app.scss */
 .about-row .about-photo {
   background-size: cover;
   background-position: center center;
   height: 200px;
   text-align: center;
 }
-/* line 778, ../../../../../flat-front/scss/app.scss */
+/* line 883, ../../../../../flat-front/scss/app.scss */
 .about-row .about-text {
   background-repeat: repeat;
   border-bottom: 2px solid #fff;
   height: 300px;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 778, ../../../../../flat-front/scss/app.scss */
+  /* line 883, ../../../../../flat-front/scss/app.scss */
   .about-row .about-text {
     padding: .75rem;
   }
 }
 @media only screen and (min-width: 64.0625em) {
-  /* line 778, ../../../../../flat-front/scss/app.scss */
+  /* line 883, ../../../../../flat-front/scss/app.scss */
   .about-row .about-text {
     padding: 1.5rem;
   }
 }
-/* line 788, ../../../../../flat-front/scss/app.scss */
+/* line 893, ../../../../../flat-front/scss/app.scss */
 .about-row .about-text h3,
 .about-row .about-text h5,
 .about-row .about-text p {
   color: #fff;
 }
-/* line 793, ../../../../../flat-front/scss/app.scss */
+/* line 898, ../../../../../flat-front/scss/app.scss */
 .about-row .about-text div {
   padding: 1rem;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 797, ../../../../../flat-front/scss/app.scss */
+  /* line 902, ../../../../../flat-front/scss/app.scss */
   .about-row .about-photo,
   .about-row .about-text {
     border-bottom: 2px solid #fff;
     height: 300px;
   }
 }
-/* line 805, ../../../../../flat-front/scss/app.scss */
+/* line 910, ../../../../../flat-front/scss/app.scss */
 .about-row:nth-child(odd) .about-text {
   background: url("../img/diagonal-dark-bg-tile.png"), #999999;
 }
-/* line 810, ../../../../../flat-front/scss/app.scss */
+/* line 915, ../../../../../flat-front/scss/app.scss */
 .about-row:nth-child(even) .about-text {
   background: url("../img/diagonal-dark-bg-tile.png"), #5a8aba;
 }
 
-/* line 816, ../../../../../flat-front/scss/app.scss */
+/* line 921, ../../../../../flat-front/scss/app.scss */
 button#dev-mobile-filter-btn {
   float: left;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 816, ../../../../../flat-front/scss/app.scss */
+  /* line 921, ../../../../../flat-front/scss/app.scss */
   button#dev-mobile-filter-btn {
     display: none;
   }
 }
 
-/* line 823, ../../../../../flat-front/scss/app.scss */
+/* line 928, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui {
   margin-bottom: 1rem;
   height: 100%;
 }
-/* line 826, ../../../../../flat-front/scss/app.scss */
+/* line 931, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui button, .sub-page-ui a:not(.filter-toggle) {
   float: left;
 }
-/* line 829, ../../../../../flat-front/scss/app.scss */
+/* line 934, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui a {
   float: right;
   position: relative;
   top: .4rem;
 }
-/* line 834, ../../../../../flat-front/scss/app.scss */
+/* line 939, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui.details {
   text-align: center;
 }
-/* line 836, ../../../../../flat-front/scss/app.scss */
+/* line 941, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui.details a {
   height: 100%;
   display: inline-block;
 }
-/* line 840, ../../../../../flat-front/scss/app.scss */
+/* line 945, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui.details button, .sub-page-ui.details a:not(.filter-toggle) {
   float: none;
   margin-right: .75rem;
 }
-/* line 843, ../../../../../flat-front/scss/app.scss */
+/* line 948, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui.details button:last-child, .sub-page-ui.details a:not(.filter-toggle):last-child {
   margin-right: 0;
 }
-/* line 848, ../../../../../flat-front/scss/app.scss */
+/* line 953, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .filter-toggle {
   display: inline;
   vertical-align: top;
   position: relative;
   height: 100%;
 }
-/* line 852, ../../../../../flat-front/scss/app.scss */
+/* line 957, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .filter-toggle span {
   height: 100%;
 }
-/* line 856, ../../../../../flat-front/scss/app.scss */
+/* line 961, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .filter-toggle #date-label-oldest {
   display: none;
 }
-/* line 859, ../../../../../flat-front/scss/app.scss */
+/* line 964, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .filter-toggle .hover-icon {
   display: inline-block;
   margin-left: .75rem;
@@ -4313,69 +4440,69 @@ button#dev-mobile-filter-btn {
   -webkit-transition: -webkit-transform 0.2s ease-in-out, margin-left 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, margin-left 0.2s ease-in-out;
 }
-/* line 867, ../../../../../flat-front/scss/app.scss */
+/* line 972, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .filter-toggle.oldest-first #date-label-newest {
   display: none;
 }
-/* line 870, ../../../../../flat-front/scss/app.scss */
+/* line 975, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .filter-toggle.oldest-first #date-label-oldest {
   display: inline;
 }
-/* line 873, ../../../../../flat-front/scss/app.scss */
+/* line 978, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .filter-toggle.oldest-first .hover-icon {
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
 }
-/* line 878, ../../../../../flat-front/scss/app.scss */
+/* line 983, ../../../../../flat-front/scss/app.scss */
 .sub-page-ui .full-ui {
   display: none;
   float: left;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 878, ../../../../../flat-front/scss/app.scss */
+  /* line 983, ../../../../../flat-front/scss/app.scss */
   .sub-page-ui .full-ui {
     display: block;
   }
 }
 
-/* line 888, ../../../../../flat-front/scss/app.scss */
+/* line 993, ../../../../../flat-front/scss/app.scss */
 .development-details .details-body {
   margin-top: 1rem;
 }
-/* line 890, ../../../../../flat-front/scss/app.scss */
+/* line 995, ../../../../../flat-front/scss/app.scss */
 .development-details .details-body h4 + p {
   margin-bottom: 1rem;
 }
-/* line 894, ../../../../../flat-front/scss/app.scss */
+/* line 999, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section {
   margin-top: 1rem;
 }
-/* line 897, ../../../../../flat-front/scss/app.scss */
+/* line 1002, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar-holder {
   margin-top: .75rem;
 }
-/* line 900, ../../../../../flat-front/scss/app.scss */
+/* line 1005, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar-holder:first-child .roi-bar {
   background-color: #424242;
 }
-/* line 905, ../../../../../flat-front/scss/app.scss */
+/* line 1010, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar-holder:last-child .roi-bar {
   background-color: #5a8aba;
 }
-/* line 909, ../../../../../flat-front/scss/app.scss */
+/* line 1014, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar-holder .roi-bar,
 .development-details .roi-section #roi-chart-holder .roi-bar-holder span {
   float: left;
 }
-/* line 914, ../../../../../flat-front/scss/app.scss */
+/* line 1019, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar {
   height: 30px;
   width: 100%;
   display: inline-block;
 }
-/* line 918, ../../../../../flat-front/scss/app.scss */
+/* line 1023, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar span, .development-details .roi-section #roi-chart-holder .roi-bar + span {
   display: inline-block;
   font-weight: 600;
@@ -4383,199 +4510,225 @@ button#dev-mobile-filter-btn {
   margin-top: .35rem;
   font-size: .9rem;
 }
-/* line 926, ../../../../../flat-front/scss/app.scss */
+/* line 1031, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar span {
   color: #fff;
   margin-left: .75rem;
 }
-/* line 930, ../../../../../flat-front/scss/app.scss */
+/* line 1035, ../../../../../flat-front/scss/app.scss */
 .development-details .roi-section #roi-chart-holder .roi-bar + span {
   color: #424242;
   margin-left: .5rem;
 }
-/* line 937, ../../../../../flat-front/scss/app.scss */
+/* line 1042, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats-holder {
   margin-top: 1rem;
 }
-/* line 940, ../../../../../flat-front/scss/app.scss */
+/* line 1045, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats {
   padding: 1rem;
   margin-bottom: .5rem;
 }
-/* line 943, ../../../../../flat-front/scss/app.scss */
+/* line 1048, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats h2,
 .development-details .dev-stats h3 {
   display: block;
   margin: 0;
 }
-/* line 948, ../../../../../flat-front/scss/app.scss */
+/* line 1053, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats h2 {
   font-size: 3rem;
   font-weight: 600;
 }
-/* line 952, ../../../../../flat-front/scss/app.scss */
+/* line 1057, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats h3 {
   font-size: 1.25rem;
 }
-/* line 955, ../../../../../flat-front/scss/app.scss */
+/* line 1060, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats:nth-child(3n+1) {
   background-color: #f4f4f4;
 }
-/* line 957, ../../../../../flat-front/scss/app.scss */
+/* line 1062, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats:nth-child(3n+1) h2, .development-details .dev-stats:nth-child(3n+1) h3 {
   color: #424242;
 }
-/* line 961, ../../../../../flat-front/scss/app.scss */
+/* line 1066, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats:nth-child(3n+2) {
   background-color: #5a8aba;
 }
-/* line 963, ../../../../../flat-front/scss/app.scss */
+/* line 1068, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats:nth-child(3n+2) h2, .development-details .dev-stats:nth-child(3n+2) h3 {
   color: #fff;
 }
-/* line 967, ../../../../../flat-front/scss/app.scss */
+/* line 1072, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats:nth-child(3n+3) {
   background-color: #424242;
 }
-/* line 969, ../../../../../flat-front/scss/app.scss */
+/* line 1074, ../../../../../flat-front/scss/app.scss */
 .development-details .dev-stats:nth-child(3n+3) h2, .development-details .dev-stats:nth-child(3n+3) h3 {
   color: #f4f4f4;
 }
-/* line 974, ../../../../../flat-front/scss/app.scss */
+/* line 1079, ../../../../../flat-front/scss/app.scss */
 .development-details .more-photos {
   margin-top: 2rem;
 }
-/* line 976, ../../../../../flat-front/scss/app.scss */
+/* line 1081, ../../../../../flat-front/scss/app.scss */
 .development-details .more-photos div {
   margin: 0;
   padding: 0;
 }
-/* line 980, ../../../../../flat-front/scss/app.scss */
+/* line 1085, ../../../../../flat-front/scss/app.scss */
 .development-details .more-photos div:first-child img {
   border-right: 3px solid #fff;
 }
-/* line 985, ../../../../../flat-front/scss/app.scss */
+/* line 1090, ../../../../../flat-front/scss/app.scss */
 .development-details .more-photos img {
   width: 100%;
   border-bottom: 3px solid #fff;
 }
 
-/* line 992, ../../../../../flat-front/scss/app.scss */
+/* line 1097, ../../../../../flat-front/scss/app.scss */
 .developments-row {
   padding: 0 1rem;
 }
 
-/* line 996, ../../../../../flat-front/scss/app.scss */
+/* line 1101, ../../../../../flat-front/scss/app.scss */
 .contacts-list,
 .contact-form {
   margin-top: 1rem;
 }
 
-/* line 1003, ../../../../../flat-front/scss/app.scss */
+/* line 1108, ../../../../../flat-front/scss/app.scss */
 .contact-form input.wpcf7-not-valid, .contact-form textarea.wpcf7-not-valid {
   border: 1px dashed red;
 }
-/* line 1006, ../../../../../flat-front/scss/app.scss */
+/* line 1111, ../../../../../flat-front/scss/app.scss */
 .contact-form input + span, .contact-form textarea + span {
   margin-top: -0.7rem;
 }
-/* line 1010, ../../../../../flat-front/scss/app.scss */
+/* line 1115, ../../../../../flat-front/scss/app.scss */
 .contact-form input[type="submit"] {
   margin-top: .85rem;
 }
-/* line 1013, ../../../../../flat-front/scss/app.scss */
+/* line 1118, ../../../../../flat-front/scss/app.scss */
 .contact-form .wpcf7-response-output {
   margin: 1rem 0;
 }
 
-/* line 1019, ../../../../../flat-front/scss/app.scss */
+/* line 1124, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 1022, ../../../../../flat-front/scss/app.scss */
+/* line 1127, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li {
   background-color: #f4f4f4;
   padding: 1rem;
   margin-bottom: 1rem;
 }
-/* line 1026, ../../../../../flat-front/scss/app.scss */
+/* line 1131, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li:before {
   content: "";
   margin: 0;
 }
-/* line 1030, ../../../../../flat-front/scss/app.scss */
+/* line 1135, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li a, .contacts-list ul li h5, .contacts-list ul li span {
   font-size: 1rem;
   color: #424242;
   font-weight: 100;
 }
-/* line 1035, ../../../../../flat-front/scss/app.scss */
+/* line 1140, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li a {
   display: block;
 }
-/* line 1039, ../../../../../flat-front/scss/app.scss */
+/* line 1144, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li span[class^="icon-"] {
   font-size: .72rem;
   margin-right: .25rem;
   position: relative;
   top: -0.1rem;
 }
-/* line 1045, ../../../../../flat-front/scss/app.scss */
+/* line 1150, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li span.department {
   font-weight: 600;
 }
-/* line 1047, ../../../../../flat-front/scss/app.scss */
+/* line 1152, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li span.department::after {
   content: ":";
   display: inline;
   margin-left: .1rem;
 }
-/* line 1053, ../../../../../flat-front/scss/app.scss */
+/* line 1158, ../../../../../flat-front/scss/app.scss */
 .contacts-list ul li span.mailto {
   color: #5a8aba;
 }
 
-/* line 1062, ../../../../../flat-front/scss/app.scss */
+/* line 1167, ../../../../../flat-front/scss/app.scss */
 #press .ui-row {
   margin-top: 2rem;
 }
 
-/* line 1067, ../../../../../flat-front/scss/app.scss */
+/* line 1172, ../../../../../flat-front/scss/app.scss */
 #press-release {
   margin-top: 1.5rem;
 }
-/* line 1069, ../../../../../flat-front/scss/app.scss */
+/* line 1174, ../../../../../flat-front/scss/app.scss */
 #press-release h1 {
   font-size: 1.1rem;
   font-weight: 600;
 }
-/* line 1074, ../../../../../flat-front/scss/app.scss */
+/* line 1179, ../../../../../flat-front/scss/app.scss */
 #press-release p.lead {
   font-size: 1.35rem;
 }
-/* line 1078, ../../../../../flat-front/scss/app.scss */
+/* line 1183, ../../../../../flat-front/scss/app.scss */
 #press-release p.press-contact span {
   font-weight: 600;
 }
-/* line 1083, ../../../../../flat-front/scss/app.scss */
+/* line 1188, ../../../../../flat-front/scss/app.scss */
 #press-release a {
   color: #5a8aba;
 }
-/* line 1089, ../../../../../flat-front/scss/app.scss */
+/* line 1194, ../../../../../flat-front/scss/app.scss */
 #press-release .prop-address-col p span,
 #press-release .press-release-footer p span {
   display: block;
 }
-/* line 1094, ../../../../../flat-front/scss/app.scss */
+/* line 1199, ../../../../../flat-front/scss/app.scss */
 #press-release .press-release-content {
   margin-top: 1rem;
 }
-/* line 1096, ../../../../../flat-front/scss/app.scss */
+/* line 1201, ../../../../../flat-front/scss/app.scss */
 #press-release .press-release-content img {
   margin: 1rem 0;
 }
-/* line 1099, ../../../../../flat-front/scss/app.scss */
+/* line 1204, ../../../../../flat-front/scss/app.scss */
 #press-release .press-release-content ul {
   margin: 1rem 0;
+}
+
+/* line 1214, ../../../../../flat-front/scss/app.scss */
+.property-feature {
+  border: 1px solid red;
+  padding: 1rem;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+/* line 1220, ../../../../../flat-front/scss/app.scss */
+.property-feature:nth-child(even) {
+  background-color: whitesmoke;
+  border-color: gray;
+}
+/* line 1224, ../../../../../flat-front/scss/app.scss */
+.property-feature h4 {
+  margin-bottom: 0.5rem;
+}
+
+/* line 1230, ../../../../../flat-front/scss/app.scss */
+button.full-color {
+  border-color: red;
+  color: red;
 }

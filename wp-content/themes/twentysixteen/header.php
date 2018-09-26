@@ -29,14 +29,18 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-header-main">
 				<div class="site-branding">
+					<?php twentysixteen_the_custom_logo(); ?>
+
 					<?php if ( is_front_page() && is_home() ) : ?>
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
 						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-					<?php endif;
+					<?php
+					endif;
 
 					$description = get_bloginfo( 'description', 'display' );
-					if ( $description || is_customize_preview() ) : ?>
+if ( $description || is_customize_preview() ) :
+					?>
 						<p class="site-description"><?php echo $description; ?></p>
 					<?php endif; ?>
 				</div><!-- .site-branding -->
@@ -48,10 +52,12 @@
 						<?php if ( has_nav_menu( 'primary' ) ) : ?>
 							<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
 								<?php
-									wp_nav_menu( array(
-										'theme_location' => 'primary',
-										'menu_class'     => 'primary-menu',
-									 ) );
+									wp_nav_menu(
+										array(
+											'theme_location' => 'primary',
+											'menu_class' => 'primary-menu',
+										)
+									);
 								?>
 							</nav><!-- .main-navigation -->
 						<?php endif; ?>
@@ -59,13 +65,15 @@
 						<?php if ( has_nav_menu( 'social' ) ) : ?>
 							<nav id="social-navigation" class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'twentysixteen' ); ?>">
 								<?php
-									wp_nav_menu( array(
-										'theme_location' => 'social',
-										'menu_class'     => 'social-links-menu',
-										'depth'          => 1,
-										'link_before'    => '<span class="screen-reader-text">',
-										'link_after'     => '</span>',
-									) );
+									wp_nav_menu(
+										array(
+											'theme_location' => 'social',
+											'menu_class'  => 'social-links-menu',
+											'depth'       => 1,
+											'link_before' => '<span class="screen-reader-text">',
+											'link_after'  => '</span>',
+										)
+									);
 								?>
 							</nav><!-- .social-navigation -->
 						<?php endif; ?>

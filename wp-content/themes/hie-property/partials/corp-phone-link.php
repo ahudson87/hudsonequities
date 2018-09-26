@@ -1,0 +1,1 @@
+<a href="tel:<?php echo preg_replace("/[^0-9,.]/", "", get_option('global_company_phone')); ?>"><?php echo get_option('global_company_phone'); ?></a>

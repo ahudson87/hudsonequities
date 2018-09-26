@@ -13,6 +13,8 @@ jQuery(function ($) {
 		checkViewportSetNav();
 	});
 
+	console.log("check logo");
+
 	$( "#mobile-menu-btn" ).click(function() {
 		if (!$mobileMenuVisible) {
 			$mobileMenu.show("fast");
@@ -111,6 +113,14 @@ jQuery(function ($) {
 		console.log($investmentWidth);
 		$roiBarInvestment.animate({width: $investmentWidth + "%"}, 2000);
 		$roiBarReturn.delay(250).animate({width: "78%"}, 2000);
+	}
+
+	
+	var $headerMenu = $('ul#header-menu');
+	if ($headerMenu) {
+		if ($headerMenu.children().length > 4) {
+			$headerMenu.addClass('hack-large-menu');
+		}
 	}
 
 });

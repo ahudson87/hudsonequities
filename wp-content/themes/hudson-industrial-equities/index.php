@@ -6,8 +6,7 @@
         <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
         <div class="hero-bg-image"
               style="background-image: url('<?php echo $image[0]; ?>');"><!-- START HERO BACKGROUND -->
-          <div class="hero-frame"></div>
-          <div class="hero-frame"></div>
+          <?php get_template_part( 'partials/hero-frame' ); ?>
         </div>
         <?php endif; ?>
         <!-- END HERO BACKGROUND -->
