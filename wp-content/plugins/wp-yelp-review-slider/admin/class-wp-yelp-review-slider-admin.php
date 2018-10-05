@@ -151,7 +151,7 @@ class WP_Yelp_Review_Admin {
 				wp_localize_script('wpyelp_templates_posts_page-js', 'adminjs_script_vars', 
 					array(
 					'wpyelp_nonce'=> wp_create_nonce('randomnoncestring'),
-					'pluginsUrl' => wprev_yelp_plugin_url
+					'pluginsUrl' => wprev_plugin_url
 					)
 				);
  				wp_enqueue_script('thickbox');

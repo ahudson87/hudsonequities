@@ -63,7 +63,7 @@
 
           if( $images ): ?>
           <?php foreach( $images as $image ): ?>
-            <img src="<?php echo $image['sizes']['medium']; ?>" alt="<?php echo $image['alt']; ?>" style="margin-bottom: 20px;" />
+            <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" style="margin-bottom: 20px; max-width: 270px;" />
             <?php endforeach; ?>
           <?php endif; ?>
 

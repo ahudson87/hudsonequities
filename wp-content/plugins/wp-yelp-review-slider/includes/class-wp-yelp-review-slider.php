@@ -69,7 +69,7 @@ class WP_Yelp_Review {
 	public function __construct() {
 
 		$this->_token = 'wp-yelp-review-slider';
-		$this->version = '3.9';
+		$this->version = '4.1';
 		//using this for development
 		//$this->version = time();
 

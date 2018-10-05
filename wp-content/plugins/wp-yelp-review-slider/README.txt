@@ -4,7 +4,7 @@ Donate link: http://ljapps.com/
 Tags: Yelp, reviews, slider, testimonials, yelp, facebook page reviews
 Requires at least: 3.0.1
 Tested up to: 4.9
-Stable tag: 3.9
+Stable tag: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,7 +27,6 @@ Feature List:
 * Even hide the no text reviews completely with the click of a button.
 
 
-
 [Upgrade to Pro for More Features:](https://ljapps.com/wp-review-slider-pro/)
 
 * Customer support via email and a forum.
@@ -35,6 +34,8 @@ Feature List:
 * Create a really cool summary badge of your reviews!
 * Front end submission form.
 * Download your Facebook Page, Google, and TripAdvisor reviews as well.
+* Create floating badges and reviews that will show a slideout of reviews on click!
+* Load More button to show more reviews.
 * Hide certain reviews from displaying.
 * Manually add reviews to your database.
 * Download all your reviews in CSV format to your computer.
@@ -72,10 +73,16 @@ We are always looking for features to add. Just post on the support forum or con
 5. Create as many templates as you like.
 
 == Changelog ==
-= 3.9 =
-* Small bug fix, conflict with other plugin.
+
+= 4.1 =
+* Small bug fix.
+
+= 4.0 =
+* Small bug fix.
+
 = 3.8 =
 * Small bug fix.
+
 = 3.7 =
 * Small bug fix.
 

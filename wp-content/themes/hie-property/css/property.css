@@ -740,7 +740,7 @@ th.hide-for-touch {
 }
 /* line 8, ../../../../../flat-front/scss/property.scss */
 #header #logo-holder.rect {
-  height: 48px;
+  height: 50px;
   width: 80px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -755,19 +755,19 @@ th.hide-for-touch {
 }
 /* line 16, ../../../../../flat-front/scss/property.scss */
 #header #logo-holder.rect img {
-  width: 80%;
+  width: 90%;
 }
 /* line 23, ../../../../../flat-front/scss/property.scss */
 #header.minimized #logo-holder.rect {
-  height: 28px;
-  width: 60px;
+  height: 50px;
+  width: 80px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 /* line 27, ../../../../../flat-front/scss/property.scss */
 #header.minimized #logo-holder.rect img {
-  width: 70%;
+  width: 90%;
 }
 
 /* line 37, ../../../../../flat-front/scss/property.scss */

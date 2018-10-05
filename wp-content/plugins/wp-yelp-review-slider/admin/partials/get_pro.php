@@ -36,6 +36,8 @@ include("tabmenu.php");
 	<li>Download your Yelp, Facebook, TripAdvisor, and Google reviews as well!</li>
 	<li>Get email notifications when new low reviews are found.</li>
 	<li>Hide certain reviews from displaying.</li>
+	<li>Create floating Summary Badges and Review Badges, that can display a slide-out of reviews when clicked.</li>
+	<li>Built in pagination support so you can load more reviews with a button click.</li>
 	<li>Manually add reviews to your database.</li>
 	<li>Download all your reviews in CSV format to your computer.</li>
 	<li>Access more Review Template styles!</li>
