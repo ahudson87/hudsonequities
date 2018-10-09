@@ -42,7 +42,7 @@ function add_gcf_interface() {
 function editglobalcustomfields() {
 	?>
 	<style>
-	.wrap input[type="text"]
+	.wrap input[type="text"],
 	.wrap textarea {
 		width: 400px;
 		height: 44px;
