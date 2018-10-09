@@ -72,6 +72,9 @@
         background-color: <?php echo get_option('global_company_color'); ?> !important;
       }
     </style>
+
+    <!-- GOOGLE ANALYTICS FROM GLOBAL FIELDS -->
+    <?php echo get_option('global_google_analytics'); ?>
   </head>
   <body>
 
