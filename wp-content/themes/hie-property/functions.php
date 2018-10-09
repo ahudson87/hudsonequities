@@ -103,7 +103,7 @@ function editglobalcustomfields() {
 	<input type="text" name="global_company_fax" value="<?php echo get_option('global_company_fax'); ?>" /></p>
 
 	<p><strong>Google Analytics Code</strong><br />
-	<textarea name="global_google_analytics" value="<?php echo get_option('global_google_analytics'); ?>" /></textarea>
+	<textarea name="global_google_analytics"><?php echo get_option('global_google_analytics'); ?></textarea>
 
 	<p><input type="submit" name="Submit" value="Update Options" /></p>
 
