@@ -15,12 +15,13 @@
             <!-- START FORM ROW -->
             <div class="small-12 medium-8 small-centered columns">
                 <div class="blog-header">
-                  <span class="blog-date"><?php echo get_the_date('F j, Y'); ?></span>
+                  <span class="blog-date"><?php echo get_the_date('M j, Y'); ?></span>
                   <?php get_template_part( 'partials/blog-social-links' ); ?>
                 </div>
                 
             	<?php if (have_posts()) : while (have_posts()) : the_post();?>
-            	<h1><?php the_title(); ?></h1>
+            	<h1 class="blog-headline"><?php the_title(); ?></h1>
+            	<span class="blog-author">By <?php echo get_the_author(); ?></span>
                 <?php the_content(); ?>
                 <?php endwhile; endif; wp_reset_query(); ?>
 
