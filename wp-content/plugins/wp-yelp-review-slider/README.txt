@@ -4,7 +4,7 @@ Donate link: http://ljapps.com/
 Tags: Yelp, reviews, slider, testimonials, yelp, facebook page reviews
 Requires at least: 3.0.1
 Tested up to: 4.9
-Stable tag: 4.1
+Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,12 @@ We are always looking for features to add. Just post on the support forum or con
 5. Create as many templates as you like.
 
 == Changelog ==
+
+= 4.3 =
+* Small bug fix, with memory limit.
+
+= 4.2 =
+* Small bug fixed, fixed conflict with facebook version of plugin.
 
 = 4.1 =
 * Small bug fix.

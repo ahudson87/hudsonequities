@@ -71,6 +71,30 @@
       .call-now {
         background-color: <?php echo get_option('global_company_color'); ?> !important;
       }
+
+      .blog-single .blog-footer-call,
+      .blog-single .blog-footer-email {
+        background-color: <?php echo get_option('global_company_color'); ?> !important;
+      }
+      .blog-single .blog-footer-call:hover,
+      .blog-single .blog-footer-email:hover {
+        background-color: white !important;
+        border-color: <?php echo get_option('global_company_color'); ?> !important;
+      }
+
+      input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+        border-color: #dadada;
+      }
+
+      html.no-touch .call-now a:hover {
+        color: white !important;
+        text-decoration: underline;
+      }
+
+      blockquote {
+        color: <?php echo get_option('global_company_color'); ?> !important;
+        box-shadow: 0 0 10px <?php echo get_option('global_company_color'); ?> !important;
+      }
     </style>
 
     <!-- GOOGLE ANALYTICS FROM GLOBAL FIELDS -->

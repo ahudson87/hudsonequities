@@ -4732,3 +4732,211 @@ button.full-color {
   border-color: red;
   color: red;
 }
+
+/* line 1237, ../../../../../flat-front/scss/app.scss */
+.page-content:not(.with-hero).blog-single {
+  padding-top: 110px;
+}
+
+/* line 1242, ../../../../../flat-front/scss/app.scss */
+.blog-archive a,
+.blog-single a {
+  text-decoration: underline;
+}
+/* line 1245, ../../../../../flat-front/scss/app.scss */
+.blog-archive img,
+.blog-single img {
+  margin: 1rem auto;
+}
+/* line 1248, ../../../../../flat-front/scss/app.scss */
+.blog-archive h1, .blog-archive h2, .blog-archive h3, .blog-archive h4, .blog-archive h5, .blog-archive h6,
+.blog-single h1,
+.blog-single h2,
+.blog-single h3,
+.blog-single h4,
+.blog-single h5,
+.blog-single h6 {
+  margin-bottom: 1rem;
+}
+/* line 1251, ../../../../../flat-front/scss/app.scss */
+.blog-archive h2,
+.blog-single h2 {
+  font-weight: 600;
+}
+/* line 1254, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-header,
+.blog-archive .blog-footer-flex,
+.blog-single .blog-header,
+.blog-single .blog-footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 1260, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer-social,
+.blog-single .blog-footer-social {
+  display: block;
+}
+/* line 1263, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer-social .blog-archive-link,
+.blog-single .blog-footer-social .blog-archive-link {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+/* line 1267, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer-social .social-icons,
+.blog-single .blog-footer-social .social-icons {
+  display: flex;
+  margin-top: 0.4rem;
+  justify-content: flex-end;
+}
+@media only screen and (min-width: 40.0625em) {
+  /* line 1275, ../../../../../flat-front/scss/app.scss */
+  .blog-archive .blog-footer-social,
+  .blog-single .blog-footer-social {
+    display: flex;
+  }
+  /* line 1278, ../../../../../flat-front/scss/app.scss */
+  .blog-archive .blog-footer-social .blog-archive-link,
+  .blog-single .blog-footer-social .blog-archive-link {
+    display: block;
+    margin-bottom: 0;
+  }
+  /* line 1282, ../../../../../flat-front/scss/app.scss */
+  .blog-archive .blog-footer-social .social-icons,
+  .blog-single .blog-footer-social .social-icons {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+}
+/* line 1290, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer-contact,
+.blog-single .blog-footer-contact {
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+/* line 1294, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-header,
+.blog-single .blog-header {
+  border-bottom: 2px solid #f4f4f4;
+  margin-bottom: 1.2rem;
+  padding-bottom: 5px;
+}
+/* line 1299, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer,
+.blog-single .blog-footer {
+  border-top: 2px solid #f4f4f4;
+  margin-top: 1.2rem;
+  padding-top: 5px;
+}
+/* line 1304, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer-call,
+.blog-archive .blog-footer-email,
+.blog-single .blog-footer-call,
+.blog-single .blog-footer-email {
+  border: 1px solid #fff;
+  background-color: #4b7bab;
+  padding: 0.3rem 1rem;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+/* line 1313, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer-call:hover,
+.blog-archive .blog-footer-email:hover,
+.blog-single .blog-footer-call:hover,
+.blog-single .blog-footer-email:hover {
+  background-color: #fff;
+  color: #4b7bab;
+  border-color: #4b7bab;
+}
+/* line 1319, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-footer-call,
+.blog-single .blog-footer-call {
+  margin-right: 1rem;
+}
+/* line 1322, ../../../../../flat-front/scss/app.scss */
+.blog-archive .social-share-text,
+.blog-single .social-share-text {
+  font-size: 0.8rem;
+  margin-right: 10px;
+  color: #424242;
+  font-weight: 600;
+}
+/* line 1328, ../../../../../flat-front/scss/app.scss */
+.blog-archive .social-icons,
+.blog-single .social-icons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+/* line 1333, ../../../../../flat-front/scss/app.scss */
+.blog-archive .social-icon,
+.blog-single .social-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+}
+/* line 1337, ../../../../../flat-front/scss/app.scss */
+.blog-archive .social-icon:hover,
+.blog-single .social-icon:hover {
+  opacity: 0.7;
+}
+/* line 1340, ../../../../../flat-front/scss/app.scss */
+.blog-archive .social-icon:last-child,
+.blog-single .social-icon:last-child {
+  margin-left: 5px;
+}
+/* line 1343, ../../../../../flat-front/scss/app.scss */
+.blog-archive .social-icon-facebook,
+.blog-single .social-icon-facebook {
+  background-image: url("../img/blog-icon-facebook.png");
+  background-size: cover;
+}
+/* line 1347, ../../../../../flat-front/scss/app.scss */
+.blog-archive .social-icon-linkedin,
+.blog-single .social-icon-linkedin {
+  background-image: url("../img/blog-icon-linkedin.png");
+  background-size: cover;
+}
+
+/* line 1355, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-archive-headline {
+  margin-bottom: 2rem;
+}
+/* line 1358, ../../../../../flat-front/scss/app.scss */
+.blog-archive a.blog-archive-anchor {
+  text-decoration: none;
+}
+@media only screen and (min-width: 40.0625em) {
+  /* line 1361, ../../../../../flat-front/scss/app.scss */
+  .blog-archive-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+/* line 1368, ../../../../../flat-front/scss/app.scss */
+.blog-archive-item {
+  margin-bottom: 2rem;
+  flex-basis: 47%;
+  flex-shrink: 0;
+}
+@media only screen and (min-width: 40.0625em) {
+  /* line 1373, ../../../../../flat-front/scss/app.scss */
+  .blog-archive-item:nth-child(even) {
+    margin-top: 7rem;
+  }
+}
+/* line 1378, ../../../../../flat-front/scss/app.scss */
+.blog-archive .blog-date {
+  border-top: 2px solid #f4f4f4;
+  display: block;
+  padding-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}

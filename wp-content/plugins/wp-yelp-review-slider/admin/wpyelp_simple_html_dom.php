@@ -62,7 +62,7 @@ define('WPYELP_HDOM_INFO_ENDSPACE',7);
 define('WPYELP_DEFAULT_TARGET_CHARSET', 'UTF-8');
 define('WPYELP_DEFAULT_BR_TEXT', "\r\n");
 define('WPYELP_DEFAULT_SPAN_TEXT', " ");
-define('WPYELP_MAX_FILE_SIZE', 600000);
+define('WPYELP_MAX_FILE_SIZE', 1000000);
 // helper functions
 // -----------------------------------------------------------------------------
 // get html dom from file
