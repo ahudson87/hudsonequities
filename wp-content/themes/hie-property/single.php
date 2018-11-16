@@ -26,7 +26,7 @@
                 <?php endwhile; endif; wp_reset_query(); ?>
 
                 <div class="blog-footer">
-                  <p>Want to learn more from the author of this post?</p>
+                  <p>Want to learn more from <?php echo get_the_author(); ?>?</p>
                     <div class="blog-footer-flex blog-footer-contact">
                       <a class="blog-footer-call" href="tel:<?php echo preg_replace("/[^0-9,.]/", "", get_option('global_company_phone')); ?>">Call <?php echo get_option('global_company_phone'); ?></a>
                       <a href="<?php echo get_page_link(8); ?>" class="blog-footer-email">Email us</a>
