@@ -23,6 +23,9 @@
                   <div class="specials-col specials-col-left">
                     <h3 class="specials-item-headline"><?php echo get_sub_field('special_title'); ?></h3>
                     <p class="specials-body"><?php echo get_sub_field('text_description'); ?></p>
+                    <div class="specials-social">
+                      <?php get_template_part( 'partials/specials-social-links' ); ?>
+                    </div>
                   </div>
                   <?php if( get_sub_field('promotional_image') ): ?>
                   <div class="specials-col specials-col-right">

@@ -4783,61 +4783,47 @@ button.full-color {
   display: inline-block;
   margin-bottom: 0.8rem;
 }
-/* line 1267, ../../../../../flat-front/scss/app.scss */
-.blog-archive .blog-footer-social .social-icons,
-.blog-single .blog-footer-social .social-icons {
-  display: flex;
-  margin-top: 0.4rem;
-  justify-content: flex-end;
-}
 @media only screen and (min-width: 40.0625em) {
-  /* line 1275, ../../../../../flat-front/scss/app.scss */
+  /* line 1270, ../../../../../flat-front/scss/app.scss */
   .blog-archive .blog-footer-social,
   .blog-single .blog-footer-social {
     display: flex;
   }
-  /* line 1278, ../../../../../flat-front/scss/app.scss */
+  /* line 1273, ../../../../../flat-front/scss/app.scss */
   .blog-archive .blog-footer-social .blog-archive-link,
   .blog-single .blog-footer-social .blog-archive-link {
     display: block;
     margin-bottom: 0;
   }
-  /* line 1282, ../../../../../flat-front/scss/app.scss */
-  .blog-archive .blog-footer-social .social-icons,
-  .blog-single .blog-footer-social .social-icons {
-    display: flex;
-    align-items: center;
-    margin: 0;
-  }
 }
-/* line 1290, ../../../../../flat-front/scss/app.scss */
+/* line 1280, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-footer-contact,
 .blog-single .blog-footer-contact {
   justify-content: flex-start;
   margin-bottom: 1rem;
 }
-/* line 1294, ../../../../../flat-front/scss/app.scss */
+/* line 1284, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-author,
 .blog-single .blog-author {
   margin-bottom: 0.6rem;
   display: block;
   color: #999999;
 }
-/* line 1299, ../../../../../flat-front/scss/app.scss */
+/* line 1289, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-header,
 .blog-single .blog-header {
   border-bottom: 2px solid #f4f4f4;
   margin-bottom: 1.2rem;
   padding-bottom: 5px;
 }
-/* line 1304, ../../../../../flat-front/scss/app.scss */
+/* line 1294, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-footer,
 .blog-single .blog-footer {
   border-top: 2px solid #f4f4f4;
   margin-top: 1.2rem;
   padding-top: 5px;
 }
-/* line 1309, ../../../../../flat-front/scss/app.scss */
+/* line 1299, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-footer-call,
 .blog-archive .blog-footer-email,
 .blog-single .blog-footer-call,
@@ -4852,7 +4838,7 @@ button.full-color {
   text-decoration: none;
   color: #fff;
 }
-/* line 1318, ../../../../../flat-front/scss/app.scss */
+/* line 1308, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-footer-call:hover,
 .blog-archive .blog-footer-email:hover,
 .blog-single .blog-footer-call:hover,
@@ -4861,98 +4847,101 @@ button.full-color {
   color: #4b7bab;
   border-color: #4b7bab;
 }
-/* line 1324, ../../../../../flat-front/scss/app.scss */
+/* line 1314, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-footer-call,
 .blog-single .blog-footer-call {
   margin-right: 1rem;
 }
-/* line 1327, ../../../../../flat-front/scss/app.scss */
-.blog-archive .social-share-text,
-.blog-single .social-share-text {
-  font-size: 0.8rem;
-  margin-right: 10px;
-  color: #424242;
-  font-weight: 600;
-}
-/* line 1333, ../../../../../flat-front/scss/app.scss */
-.blog-archive .social-icons,
-.blog-single .social-icons {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
-/* line 1338, ../../../../../flat-front/scss/app.scss */
-.blog-archive .social-icon,
-.blog-single .social-icon {
-  height: 25px;
-  width: 25px;
-  border-radius: 4px;
-}
-/* line 1342, ../../../../../flat-front/scss/app.scss */
-.blog-archive .social-icon:hover,
-.blog-single .social-icon:hover {
-  opacity: 0.7;
-}
-/* line 1345, ../../../../../flat-front/scss/app.scss */
-.blog-archive .social-icon:last-child,
-.blog-single .social-icon:last-child {
-  margin-left: 5px;
-}
-/* line 1348, ../../../../../flat-front/scss/app.scss */
-.blog-archive .social-icon-facebook,
-.blog-single .social-icon-facebook {
-  background-image: url("../img/blog-icon-facebook.png");
-  background-size: cover;
-}
-/* line 1352, ../../../../../flat-front/scss/app.scss */
-.blog-archive .social-icon-linkedin,
-.blog-single .social-icon-linkedin {
-  background-image: url("../img/blog-icon-linkedin.png");
-  background-size: cover;
-}
 
-/* line 1360, ../../../../../flat-front/scss/app.scss */
+/* line 1320, ../../../../../flat-front/scss/app.scss */
 .blog-single .blog-headline {
   margin-bottom: 0.3rem;
 }
 
-/* line 1366, ../../../../../flat-front/scss/app.scss */
+/* line 1326, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-archive-headline {
   margin-bottom: 2rem;
 }
-/* line 1369, ../../../../../flat-front/scss/app.scss */
+/* line 1329, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-archive-subhead {
   margin-bottom: 0.1rem;
 }
-/* line 1372, ../../../../../flat-front/scss/app.scss */
+/* line 1332, ../../../../../flat-front/scss/app.scss */
 .blog-archive a.blog-archive-anchor {
   text-decoration: none;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 1375, ../../../../../flat-front/scss/app.scss */
+  /* line 1335, ../../../../../flat-front/scss/app.scss */
   .blog-archive-flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 }
-/* line 1382, ../../../../../flat-front/scss/app.scss */
+/* line 1342, ../../../../../flat-front/scss/app.scss */
 .blog-archive-item {
   margin-bottom: 2rem;
   flex-basis: 47%;
   flex-shrink: 0;
 }
 @media only screen and (min-width: 40.0625em) {
-  /* line 1387, ../../../../../flat-front/scss/app.scss */
+  /* line 1347, ../../../../../flat-front/scss/app.scss */
   .blog-archive-item:nth-child(even) {
     margin-top: 7rem;
   }
 }
-/* line 1392, ../../../../../flat-front/scss/app.scss */
+/* line 1352, ../../../../../flat-front/scss/app.scss */
 .blog-archive .blog-date {
   border-top: 2px solid #f4f4f4;
   display: block;
   padding-top: 0.3rem;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
+}
+
+/* line 1361, ../../../../../flat-front/scss/app.scss */
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin: 0.4rem 0 0 0;
+  justify-content: flex-end;
+}
+
+/* line 1368, ../../../../../flat-front/scss/app.scss */
+.social-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+}
+/* line 1372, ../../../../../flat-front/scss/app.scss */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* line 1375, ../../../../../flat-front/scss/app.scss */
+.social-icon:last-child {
+  margin-left: 5px;
+}
+/* line 1378, ../../../../../flat-front/scss/app.scss */
+.social-icon-facebook {
+  background-image: url("../img/blog-icon-facebook.png");
+  background-size: cover;
+}
+/* line 1382, ../../../../../flat-front/scss/app.scss */
+.social-icon-linkedin {
+  background-image: url("../img/blog-icon-linkedin.png");
+  background-size: cover;
+}
+
+/* line 1388, ../../../../../flat-front/scss/app.scss */
+.social-share-text {
+  font-size: 0.8rem;
+  margin-right: 10px;
+  color: #424242;
+  font-weight: 600;
+}
+
+/* line 1395, ../../../../../flat-front/scss/app.scss */
+.specials-social {
+  display: flex;
+  margin-top: 0.7rem;
 }
