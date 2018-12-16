@@ -31,6 +31,8 @@
       <div class="row"><!-- START SECONDARY ROW -->
         <div class="small-12 medium-6 columns left-column"><!-- START LEFT COL -->     
 
+          <?php get_template_part( 'partials/yelp-cta' ); ?>
+
           <?php echo do_shortcode( '[contact-form-7 id="322" title="Reserve A Unit"]' ); ?>
 
         </div><!-- END LEFT COL -->

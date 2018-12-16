@@ -82,6 +82,10 @@
         border-color: <?php echo get_option('global_company_color'); ?> !important;
       }
 
+      .yelp-promo {
+        border-color: <?php echo get_option('global_company_color'); ?> !important;
+      }
+
       input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
         border-color: #dadada;
       }
