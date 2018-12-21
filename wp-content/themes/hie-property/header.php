@@ -5,16 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php echo wp_title(""); ?></title>
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-53406626-3', 'auto');
-      ga('send', 'pageview');
-
-    </script>
     <?php wp_head(); ?>
     <style>
       #header {
@@ -100,9 +90,6 @@
         box-shadow: 0 0 10px <?php echo get_option('global_company_color'); ?> !important;
       }
     </style>
-
-    <!-- GOOGLE ANALYTICS FROM GLOBAL FIELDS -->
-    <?php echo get_option('global_google_analytics'); ?>
   </head>
   <body>
 
