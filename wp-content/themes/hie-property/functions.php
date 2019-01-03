@@ -113,7 +113,7 @@ function editglobalcustomfields() {
 	<p><input type="submit" name="Submit" value="Update Options" /></p>
 
 	<input type="hidden" name="action" value="update" />
-	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_color, upload_image, global_google_analytics" />
+	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_color, global_accent_color, upload_image, global_google_analytics" />
 
 	</form>
 	</div>
