@@ -59,7 +59,7 @@
       }
 
       .call-now {
-        background-color: <?php echo get_option('global_company_color'); ?> !important;
+        background-color: <?php echo get_option('global_accent_color'); ?> !important;
       }
 
       .blog-single .blog-footer-call,
