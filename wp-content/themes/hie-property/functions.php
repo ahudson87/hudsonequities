@@ -96,6 +96,10 @@ function editglobalcustomfields() {
 	<p><strong>Branding Color</strong><br />
 	<input type="color" name="global_company_color" value="<?php echo get_option('global_company_color'); ?>"/><span style="position: relative; top: -8px; margin-left: 4px;">Select the color to be used in header & throughout the site.</span>
 	</p>
+
+	<p><strong>Accent Color</strong><br />
+	<input type="color" name="global_accent_color" value="<?php echo get_option('global_accent_color'); ?>"/><span style="position: relative; top: -8px; margin-left: 4px;">Select the color to be used for the Call Now CTA.</span>
+	</p>
 	
 	<p><strong>Company Phone</strong><br />
 	<input type="text" name="global_company_phone" value="<?php echo get_option('global_company_phone'); ?>" /></p>
