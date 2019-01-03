@@ -29,9 +29,7 @@
       </div><!-- END HERO -->
 
       <div class="row"><!-- START SECONDARY ROW -->
-        <div class="small-12 medium-6 columns left-column"><!-- START LEFT COL -->     
-
-          <?php get_template_part( 'partials/yelp-cta' ); ?>
+        <div class="small-12 medium-6 columns left-column"><!-- START LEFT COL -->
 
           <?php echo do_shortcode( '[contact-form-7 id="322" title="Reserve A Unit"]' ); ?>
 
@@ -48,6 +46,7 @@
           the_field( 'sub_header' );
           endif; ?>
 
+          <?php get_template_part( 'partials/yelp-cta' ); ?>
 
         </div><!-- END RIGHT COL -->
       </div><!-- END SECONDARY ROW -->
