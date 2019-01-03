@@ -779,10 +779,16 @@ th.hide-for-touch {
 /* line 46, ../../../../../flat-front/scss/property.scss */
 .yelp-promo-holder {
   display: flex;
+  margin-top: 1rem;
   justify-content: center;
 }
 
-/* line 50, ../../../../../flat-front/scss/property.scss */
+/* line 51, ../../../../../flat-front/scss/property.scss */
+#home .right-column img.yelp-logo {
+  margin-bottom: 0;
+}
+
+/* line 54, ../../../../../flat-front/scss/property.scss */
 .yelp-promo {
   padding: 20px 20px 0;
   display: inline-block;
@@ -792,7 +798,7 @@ th.hide-for-touch {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 56, ../../../../../flat-front/scss/property.scss */
+/* line 60, ../../../../../flat-front/scss/property.scss */
 .yelp-promo .yelp-logo {
   width: 100px;
   height: auto;
@@ -800,7 +806,7 @@ th.hide-for-touch {
   top: -12px;
   position: relative;
 }
-/* line 63, ../../../../../flat-front/scss/property.scss */
+/* line 68, ../../../../../flat-front/scss/property.scss */
 .yelp-promo .yelp-text {
   font-size: 1rem;
   font-weight: 600;
