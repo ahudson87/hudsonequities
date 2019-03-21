@@ -48,6 +48,11 @@
     <?php if (have_posts()) : while (have_posts()) : the_post();?>
           
           <div style="margin-bottom: 1rem;">
+
+            <div class="google-map map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27018.651266833396!2d-121.90448659352849!3d37.38375672989074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe783929d41a9db00!2sOakland+Rd+Self+Storage+in+San+Jose!5e0!3m2!1sen!2sus!4v1553142069244" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
             <?php the_content(); ?>
           </div>
 
