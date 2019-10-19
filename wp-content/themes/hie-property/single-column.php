@@ -39,13 +39,12 @@
       </div><!-- END HERO -->
 
       <div class="row"><!-- START SECONDARY ROW -->
-        <div class="small-12 small-centered medium-9 columns left-column"><!-- START SINGLE COL -->     
+        <div class="small-12 small-centered medium-9 columns left-column"><!-- START SINGLE COL -->    
 
-        <p>Bacon ipsum dolor amet drumstick tail pork chop tri-tip, shank shankle cupim chuck ball tip jowl salami bacon. Burgdoggen bresaola beef, kevin pork belly sausage meatball shoulder swine prosciutto turkey. Shoulder corned beef pork chop porchetta, spare ribs doner cupim drumstick ball tip shankle venison pork belly leberkas tail sausage. Spare ribs beef fatback, tri-tip brisket shoulder pork short loin ham hock.</p>
-
-        <p>Biltong chicken boudin tail shankle t-bone brisket. Drumstick kielbasa venison biltong shoulder short ribs, chicken alcatra beef pancetta shank. Pork belly ribeye t-bone porchetta short ribs beef sirloin landjaeger doner spare ribs. Leberkas tenderloin andouille short ribs, porchetta prosciutto tongue brisket turkey bacon cow kevin. Beef ribs filet mignon andouille tenderloin kielbasa t-bone porchetta drumstick bresaola jowl pork loin salami pork sirloin alcatra. Cupim tongue meatloaf brisket, tenderloin capicola beef rump shankle. Ground round prosciutto pastrami hamburger short ribs kielbasa shankle shank jowl spare ribs chicken jerky.</p>
-
-        <p>Drumstick pork belly porchetta doner pancetta bresaola swine chuck tenderloin tongue leberkas ground round beef ribs venison spare ribs. Strip steak pork swine leberkas frankfurter filet mignon hamburger ground round tongue tri-tip meatloaf picanha. Pork chop pork loin pancetta bresaola shank biltong. Frankfurter salami pork belly sausage alcatra ham hock kevin. Bresaola pork salami, swine doner shoulder ham pig flank brisket venison bacon ball tip shankle. Burgdoggen brisket pork loin ball tip short loin chuck rump shankle salami.</p>
+         <?php
+            if( the_field( 'body_content' ) ):
+            the_field( 'body_content' );
+          endif; ?>
 
         </div><!-- END SINGLE COL -->
 
