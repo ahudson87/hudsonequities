@@ -13,8 +13,6 @@ jQuery(function ($) {
 		checkViewportSetNav();
 	});
 
-	console.log("check logo");
-
 	$( "#mobile-menu-btn" ).click(function() {
 		if (!$mobileMenuVisible) {
 			$mobileMenu.show("fast");
