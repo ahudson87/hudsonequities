@@ -29,13 +29,13 @@
       </div><!-- END HERO -->
 
       <div class="row"><!-- START SECONDARY ROW -->
-        <div class="small-12 medium-6 columns left-column"><!-- START LEFT COL -->
+        <div class="small-12 medium-5 large-4 columns left-column"><!-- START LEFT COL -->
 
           <?php echo do_shortcode( '[contact-form-7 id="322" title="Reserve A Unit"]' ); ?>
 
         </div><!-- END LEFT COL -->
         
-        <div class="small-12 medium-6 columns right-column"><!-- START RIGHT COL -->
+        <div class="small-12 medium-7 large-8 columns right-column"><!-- START RIGHT COL -->
 
         <div class="centered-content">
             <?php get_template_part( 'partials/image-link' ); ?>
