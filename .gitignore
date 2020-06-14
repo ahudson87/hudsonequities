@@ -1,4 +1,6 @@
 /*
 /*/
 !/wp-content/
+/wp-content/uploads/
+/wp-content/cache/
 !index.html
