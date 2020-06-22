@@ -1,6 +1,4 @@
 /*
 /*/
-!/wp-content/
-/wp-content/uploads/
-/wp-content/cache/
-!index.html
+!/wp-content/themes/hudson-industrial-equities/
+!/wp-content/themes/hie-property/
