@@ -100,7 +100,7 @@ function editglobalcustomfields() {
 	<p><strong>Logo Style</strong><br />
 	<select name="global_logo_style">
 		<option value="round" <?php if (get_option('global_logo_style') === 'round') { echo "selected='selected'"; } ?>>Round</option>
-		<option value="rectangle" <?php if (get_option('global_logo_style') === 'rectangle') { echo "selected='selected'"; } ?>>Rectangle</option>
+		<option value="rect" <?php if (get_option('global_logo_style') === 'rect') { echo "selected='selected'"; } ?>>Rectangle</option>
 	</select>
 	</p>
 

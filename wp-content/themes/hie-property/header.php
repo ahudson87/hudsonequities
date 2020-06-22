@@ -97,7 +97,7 @@
     
     <div id="header"><!-- START THE HEADER -->
       <div class="row"><!-- START CONTAINER ROW -->
-        <div id="logo-holder" class="rect"><!-- START LOGO HOLDER -->
+        <div id="logo-holder" class="<?php echo get_option('global_logo_style'); ?>"><!-- START LOGO HOLDER -->
           <a href="<?php echo get_site_url(); ?>"><!-- START LOGO LINK -->
             <img src="<?php echo get_option('upload_image'); ?>" alt="Logo">
           </a><!-- END LOGO LINK -->
