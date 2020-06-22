@@ -114,6 +114,9 @@ function editglobalcustomfields() {
 	<p><strong>Company Fax</strong><br />
 	<input type="text" name="global_company_fax" value="<?php echo get_option('global_company_fax'); ?>" /></p>
 
+	<p><strong>Google Map <code>&lt;iframe&gt;</code></strong><br />
+	<textarea name="global_google_map"><?php echo get_option('global_google_map'); ?></textarea>
+
 	<p><strong>Google Analytics Code</strong><br />
 	<textarea name="global_google_analytics"><?php echo get_option('global_google_analytics'); ?></textarea>
 
@@ -123,7 +126,7 @@ function editglobalcustomfields() {
 	<p><input type="submit" name="Submit" value="Update Options" /></p>
 
 	<input type="hidden" name="action" value="update" />
-	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_yelp, global_company_color, global_accent_color, global_logo_style, upload_image, global_google_analytics" />
+	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_yelp, global_company_color, global_accent_color, global_logo_style, upload_image, global_google_analytics, global_google_map" />
 
 	</form>
 	</div>
