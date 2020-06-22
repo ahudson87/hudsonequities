@@ -117,10 +117,13 @@ function editglobalcustomfields() {
 	<p><strong>Google Analytics Code</strong><br />
 	<textarea name="global_google_analytics"><?php echo get_option('global_google_analytics'); ?></textarea>
 
+	<p><strong>Yelp Link</strong><br />
+	<input type="text" name="global_company_yelp" value="<?php echo get_option('global_company_yelp'); ?>" /></p>	
+
 	<p><input type="submit" name="Submit" value="Update Options" /></p>
 
 	<input type="hidden" name="action" value="update" />
-	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_color, global_accent_color, global_logo_style, upload_image, global_google_analytics" />
+	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_yelp, global_company_color, global_accent_color, global_logo_style, upload_image, global_google_analytics" />
 
 	</form>
 	</div>
