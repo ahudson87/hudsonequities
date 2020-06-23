@@ -814,11 +814,6 @@ th.hide-for-touch {
   display: inline-block;
 }
 
-/* line 77, ../../../../../flat-front/scss/property.scss */
-* {
-  border: 1px dashed red;
-}
-
 /* ~~~~~~~~~~~~~~~~ COLORS ~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~ TYPE ~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~ ANIMATION ~~~~~~~~~~~~~~~~ */

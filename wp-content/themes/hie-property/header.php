@@ -29,6 +29,15 @@
         color: <?php echo get_option('global_company_color'); ?> !important;
       }
 
+      table thead {
+        background: <?php echo get_option('global_company_color'); ?> !important;
+      }
+      table tr:nth-of-type(even) {
+          background-image:
+            linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),
+            linear-gradient(<?php echo get_option('global_company_color'); ?>, <?php echo get_option('global_company_color'); ?>) !important;
+      }
+
       #hero .overlay-text h1, #hero .overlay-text p {
         color: #ffffff !important;
       }
