@@ -97,6 +97,13 @@ function editglobalcustomfields() {
 	<input type="color" name="global_company_color" value="<?php echo get_option('global_company_color'); ?>"/><span style="position: relative; top: -8px; margin-left: 4px;">Select the color to be used in header & throughout the site.</span>
 	</p>
 
+	<p><strong>Logo Style</strong><br />
+	<select name="global_logo_style">
+		<option value="round" <?php if (get_option('global_logo_style') === 'round') { echo "selected='selected'"; } ?>>Round</option>
+		<option value="rect" <?php if (get_option('global_logo_style') === 'rect') { echo "selected='selected'"; } ?>>Rectangle</option>
+	</select>
+	</p>
+
 	<p><strong>Accent Color</strong><br />
 	<input type="color" name="global_accent_color" value="<?php echo get_option('global_accent_color'); ?>"/><span style="position: relative; top: -8px; margin-left: 4px;">Select the color to be used for the Call Now CTA.</span>
 	</p>
@@ -107,13 +114,19 @@ function editglobalcustomfields() {
 	<p><strong>Company Fax</strong><br />
 	<input type="text" name="global_company_fax" value="<?php echo get_option('global_company_fax'); ?>" /></p>
 
+	<p><strong>Google Map <code>&lt;iframe&gt;</code></strong><br />
+	<textarea name="global_google_map"><?php echo get_option('global_google_map'); ?></textarea>
+
 	<p><strong>Google Analytics Code</strong><br />
 	<textarea name="global_google_analytics"><?php echo get_option('global_google_analytics'); ?></textarea>
+
+	<p><strong>Yelp Link</strong><br />
+	<input type="text" name="global_company_yelp" value="<?php echo get_option('global_company_yelp'); ?>" /></p>	
 
 	<p><input type="submit" name="Submit" value="Update Options" /></p>
 
 	<input type="hidden" name="action" value="update" />
-	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_color, global_accent_color, upload_image, global_google_analytics" />
+	<input type="hidden" name="page_options" value="global_company_phone, global_company_fax, global_company_yelp, global_company_color, global_accent_color, global_logo_style, upload_image, global_google_analytics, global_google_map" />
 
 	</form>
 	</div>
