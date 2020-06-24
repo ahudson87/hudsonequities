@@ -46,7 +46,7 @@
             the_field( 'body_content' );
           endif; ?>
 
-         <?php if (get_field( 'pricing_table' )): ?>
+         <?php if (get_field( 'has_prices' ) === "Yes"): ?>
           <table class="pricing-table">
           <thead>
             <tr>
