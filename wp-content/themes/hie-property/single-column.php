@@ -47,7 +47,7 @@
           endif; ?>
 
          <?php if (get_field( 'pricing_table' )): ?>
-          <table>
+          <table class="pricing-table">
           <thead>
             <tr>
               <td>Unit Size</td>
