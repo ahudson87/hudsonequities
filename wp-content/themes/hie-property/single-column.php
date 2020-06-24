@@ -46,6 +46,32 @@
             the_field( 'body_content' );
           endif; ?>
 
+         <?php if (get_field( 'has_prices' ) === "Yes"): ?>
+          <table class="pricing-table">
+          <thead>
+            <tr>
+              <td>Unit Size</td>
+              <td class="text-right">Downstairs</td>
+              <td class="text-right">Upstairs</td>
+              <td class="text-right">Exterior</td>
+            </tr>
+          </thead>
+          <tbody>
+           <?php
+            if( have_rows('pricing_table') ):
+                while ( have_rows('pricing_table') ) : the_row();
+                    echo '<tr>';
+                    echo '<td>' . get_sub_field('unit_size') . '</td>';
+                    echo '<td>' . get_sub_field('price_upstairs') . '</td>';
+                    echo '<td>' . get_sub_field('price_downstairs') . '</td>';
+                    echo '<td>' . get_sub_field('price_exterior') . '</td>';
+                    echo '</tr>';
+                endwhile;
+            endif; ?>
+          </tbody>
+          </table>
+        <?php endif; ?>
+
         </div><!-- END SINGLE COL -->
 
       </div><!-- END SECONDARY ROW -->
