@@ -62,8 +62,8 @@
                 while ( have_rows('pricing_table') ) : the_row();
                     echo '<tr>';
                     echo '<td>' . get_sub_field('unit_size') . '</td>';
-                    echo '<td>' . get_sub_field('price_upstairs') . '</td>';
                     echo '<td>' . get_sub_field('price_downstairs') . '</td>';
+                    echo '<td>' . get_sub_field('price_upstairs') . '</td>';
                     echo '<td>' . get_sub_field('price_exterior') . '</td>';
                     echo '</tr>';
                 endwhile;
